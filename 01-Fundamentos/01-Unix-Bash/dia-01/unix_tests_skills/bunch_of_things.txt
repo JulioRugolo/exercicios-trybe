@@ -1,0 +1,12 @@
+Bash
+CSS
+First day at Trybe
+HTML
+Homeschool
+Internet
+Javascript
+Learning how to use terminal
+PytonTesting commands terminal
+React
+Testing MacOS
+Unix
