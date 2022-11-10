@@ -1,1 +1,4 @@
 Julio Rugolo
+Nesse exercicio aprendi que para fazer o versionamento temos que seguir os seguintes passos:
+1o - Criar uma estrutura inicial;
+2o - Criar uma nova branch com o comando (git checkout -m "nome da branch"
