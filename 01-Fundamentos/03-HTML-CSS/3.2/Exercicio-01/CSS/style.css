@@ -1,0 +1,119 @@
+body{
+    width: 90%;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #CCC;
+}
+#titulo-portfolio{
+    width: 100%;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: #903;
+}
+
+/* CSS MENU */
+
+.menu-align{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+menu {
+    margin: auto;
+    padding:auto;
+}
+ 
+#botao {
+    list-style: none; 
+    margin: auto;
+    display: inline;
+    
+}
+
+li a {
+    padding: 10px 10px; 
+    margin:auto;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:10px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+/* CSS MENU END */ 
+
+#me{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: #903;
+    border: #903;
+    border-radius: 100px;
+}
+
+/* INFO CSS */
+.info{
+    display: flex;
+    flex-flow: row wrap;
+    color: #903;
+    background-color: #CCC;
+}
+.info-titulo{
+    font-size: 30px;
+    margin-left: auto;
+}
+.social{
+    font-size: 30px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.network{
+    font-size: 30px;
+    margin-left: auto;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+}
+#item1{
+    color:#000;
+    font-size: 12px;
+}
+
+#item2{
+    color:rgb(255, 0, 187);
+    font-size: 15px;
+}
+
+#item3{
+    color:rgb(0, 34, 255);
+    font-size: 20px;
+}
+/* END INFO CSS */
