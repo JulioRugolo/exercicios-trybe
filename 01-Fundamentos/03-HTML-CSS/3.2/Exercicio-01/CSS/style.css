@@ -3,7 +3,7 @@ body{
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #CCC;
+    background-color: rgb(0, 0, 0);
 }
 #titulo-portfolio{
     width: 100%;
@@ -80,14 +80,17 @@ li a:hover {
 .info{
     display: flex;
     flex-flow: row wrap;
-    color: #903;
-    background-color: #CCC;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 52, 52);
 }
 .info-titulo{
     font-size: 30px;
     margin-left: auto;
+    font-weight: bold;
+    color: rgb(255, 0, 200);
 }
 .social{
+    color: #903;
     font-size: 30px;
     margin-left: auto;
     text-align: center;
@@ -95,7 +98,7 @@ li a:hover {
 
 .network{
     font-size: 30px;
-    margin-left: auto;
+    margin-left: auto;  
     text-align: center;
 }
 
@@ -103,17 +106,29 @@ h2{
     font-weight: bold;
 }
 #item1{
-    color:#000;
+    color:rgb(9, 255, 0);
     font-size: 12px;
 }
 
 #item2{
     color:rgb(255, 0, 187);
     font-size: 15px;
+    
 }
 
 #item3{
-    color:rgb(0, 34, 255);
-    font-size: 20px;
+    font-size: 15px;
+    padding: 10px 10px; 
+    margin:auto;
+    border: 5px solid #f00; 
+    background: rgb(0, 0, 0);
+    color:#FFF;
+
+}
+
+.item5{
+    color:rgb(0, 176, 44);
+    font-size: 25px;
+
 }
 /* END INFO CSS */
