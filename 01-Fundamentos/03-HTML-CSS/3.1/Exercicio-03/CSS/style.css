@@ -71,16 +71,62 @@ li a:hover {
 }
 
 .about {
-    display: block;
-    margin-left: 50px;
-    height: 400px;
+    padding: 0px 70px;
+    background-color: #903;
+    min-height: 350px;
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+  }
+
+.about-title{
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 0px;
+    padding-top: 5px;
 }
 
-.about-content{
-    display: block;
-    margin-top: 0px;
-    display: inline-block;
+.about-content-left{
+    
+    float: left;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.about-content-right{
+    float: right;
+    width: 70%;
+    text-align: left;
+    color: white;
 }
 
 /* FIM DO HEADER */
 
+/* RESPONSIVE CSS */
+
+@media(max-width: 500px) {
+    .about-content-right{
+        float: right;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    .about-content-left{
+        float: center;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .about {
+        padding: 0px 70px;
+        background-color: #903;
+        min-height: 750px;
+        margin-top: 0px;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-right: 10%;
+      }
+}
