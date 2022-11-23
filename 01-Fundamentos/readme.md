@@ -1,1 +1,1 @@
-Exercicios de fundamentos
+Exercicios de JavaScript
