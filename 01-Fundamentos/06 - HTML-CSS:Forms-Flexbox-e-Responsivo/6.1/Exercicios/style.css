@@ -22,11 +22,16 @@ header {
   margin-top: 100px;
 }
 
+p {
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
 /* Full-width input fields */
 input[type=text], input[type=email] {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 5px 0 10px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -40,7 +45,24 @@ input[type=text]:focus, input[type=password]:focus {
 
 label {
     padding-right: 20px;
-    
+}
+
+input[type=radio] {
+    margin-top: 10px;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=date] {
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
 }
 
 /* Overwrite default styles of hr */
