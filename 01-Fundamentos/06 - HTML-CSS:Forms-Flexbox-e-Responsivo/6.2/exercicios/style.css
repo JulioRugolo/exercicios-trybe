@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-header {
+/* header {
     position: fixed;
     top: 0;
     background-color: black;
@@ -13,13 +13,17 @@ header {
     margin: 0;
     height: 60px;
     padding: 10px;
+} */
+
+body{
+  background-color: #666666;
 }
 
 .container {
   padding: 16px;
   width: 50%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 p {
@@ -27,7 +31,6 @@ p {
     margin-top: 15px;
 }
 
-/* Full-width input fields */
 input[type=text], input[type=email] {
   width: 100%;
   padding: 15px;
@@ -60,18 +63,16 @@ input[type=date] {
     margin-top: 10px;
     margin-bottom: 20px; 
     width: 150px;
-    height: 25px;
+    height: 35px;
     text-align: center;
     font-size: larger;
 }
 
-/* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit/register button */
 #submit-button {
   background-color: #04AA6D;
   color: white;
