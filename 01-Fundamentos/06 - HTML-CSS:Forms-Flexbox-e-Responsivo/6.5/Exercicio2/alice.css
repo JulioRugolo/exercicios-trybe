@@ -1,0 +1,215 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    header{
+        background-color:brown;
+        color: wheat;
+    }
+
+    header p{
+        font-size: larger;
+        padding-top: 20px;
+    }
+
+    nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color:rgb(121, 55, 7);
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .aside-two{
+        padding: 20px;
+        padding-left: 0;
+        background-color: antiquewhite;
+        width: 100%;
+    }
+    .aside-two h2 {
+        padding: 0;
+        font-size: 30px;
+        margin: 0;
+        font-size: x-large;
+    }
+
+    .aside-two ul{
+        list-style: none;
+        width: 100%;
+    }
+
+    .aside-two ul li {
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .aside-one ul{
+        list-style: none;
+        text-align: left;
+    }
+
+    .main-content{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .main-content h1{
+        font-size: 20px;
+
+    }
+
+    footer{
+        background-color: brown;
+        color: aliceblue;
+        padding: 0 30px 0 30px;
+    }
+   
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        background-color:brown;
+        color: wheat;
+    }
+
+    header p{
+        background-color:brown;
+        color: wheat;
+        font-size: 30px;
+    }
+
+    nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        background-color:rgb(121, 55, 7);
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .aside-two{
+        padding: 0;
+        background-color: antiquewhite;
+        width: 100%;
+    }
+
+    .aside-two ul{
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aside-one ul{
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-content{
+        padding: 0 80px 0 80px;
+    }
+
+    footer{
+        background-color: brown;
+        color: aliceblue;
+        padding: 0 30px 0 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        display: flex;
+    }
+
+    .aside-container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .aside-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15%;
+        padding: 20px;
+        height: 500px;
+        align-items: center;
+    }
+
+    .aside-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20%;
+        padding: 20px;
+        height: 500px;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+    .main-content{
+        width: 70%;
+    }
+    aside.aside-one{
+        order: 3;
+    }
+
+    aside.aside-two{
+        order: 1;
+    }
+
+    article.main-content{
+        order: 2;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
