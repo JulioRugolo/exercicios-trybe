@@ -1,0 +1,84 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-size: 18px;
+  }
+  article {
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+  }
+  img {
+      max-width: 100%;
+  }
+  main {
+  }
+  section {
+  }
+  figure {
+    padding-top: 30px;
+      margin: 0;
+  }
+  figcaption {
+    font-size: .8em;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: rgb(226, 156, 156);
+    font-size: 12px;
+    margin: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+}
+
+figure {
+  flex-basis: 50%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+    background-color: aqua;
+    font-size: 18px;
+    margin: auto;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}

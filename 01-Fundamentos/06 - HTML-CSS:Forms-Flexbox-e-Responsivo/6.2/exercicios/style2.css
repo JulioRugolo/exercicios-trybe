@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to right bottom, #05193760, #004d7a60, #00879360, #00bf7260, #a8eb1260);
+}
+
+.btn-outline-secondary{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 5px;
+    font-size: larger;
+}
+
+.text-muted{
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 20px;
+}
