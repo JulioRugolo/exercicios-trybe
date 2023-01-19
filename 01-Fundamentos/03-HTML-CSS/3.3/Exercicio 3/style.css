@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(207, 221, 221);
+  font-family:'Times New Roman', Times, serif
+}
+
+h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.top-3{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.motivos{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold
+}
+
+.lista-ordenada{
+  position: relative;
+  top: 130px;
+  text-decoration: none;
+  color: #000000;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  padding: 0px;
+}
+
+.lista-nao-ordenada{
+  position: relative;
+  top: 180px;
+  text-decoration: none;
+  color: #000000;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  padding: 0px;
+}
+
+li{
+  font: black;
+}
+
+li:hover{
+  background-color: antiquewhite;
+  color: rgb(255, 0, 0);
+}
+
+li:active{
+  background-color: red;
+  font: white;
+}
+a{
+  text-decoration: none;
+}
+
+nav,ul, li, a {
+  color: #000000;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+li:active {
+  color: #ffffff;
+}
+
+div{
+  text-align: center;
+  margin: 0px;
+}
