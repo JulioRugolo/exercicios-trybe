@@ -4,8 +4,8 @@ const yearSeasons = {
     summer: ['June', 'July', 'August'],
     autumn: ['September', 'October', 'November'],
     winter: ['December', 'January', 'February'],
-  };
-  // yearSeasons: estações do ano.
-  const { spring, summer, autumn, winter, } = yearSeasons
+};
+// yearSeasons: estações do ano.
+const { spring, summer, autumn, winter, } = yearSeasons
 const yearSeasonsRound = () => [...winter, ...spring, ...summer, ...autumn];
 console.log(yearSeasonsRound());
