@@ -1,0 +1,14 @@
+Header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
