@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+  font-size: 30px;
+  border: 0;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: rgb(180, 9, 9);
+  border-style: solid;
+  border-width: 5px;
+}
+
+button:active {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoImg {
+    width: 500px;
+    height: 500px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./IMG/logoJr.png');
+    margin: 50px;
+}
+.info {
+    display: flex;
+    text-align: left;
+    margin-left: 150px;
+    flex-direction: column;
+    width: 500px;
+    color:white;
+    font-size: 30px;
+    align-self: flex-start;
+
+}
+
+.info p {
+    margin: 0;
+}

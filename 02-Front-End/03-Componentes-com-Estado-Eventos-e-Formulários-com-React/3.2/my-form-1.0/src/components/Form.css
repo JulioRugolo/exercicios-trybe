@@ -7,28 +7,30 @@ form {
   justify-content: center;
   gap: 20px;
   padding: 30px;
+  font-size: 16px;
 }
 
 form div {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 500px;
+  width: 80%;
 }
 
 form div input, form div select {
   height: 40px;
   text-align: center;
   border-radius: 10px;
+  font-size: 16px;
 }
 
 form textarea {
   height: 100px;
   resize: none;
-  width: 500px;
+  width: 80%;
 }
 
 form button {
-  width: 200px;
+  width: 80%;
   height: 50px;
 }
