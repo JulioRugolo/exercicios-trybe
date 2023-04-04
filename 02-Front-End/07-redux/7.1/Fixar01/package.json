@@ -1,0 +1,20 @@
+{
+  "name": "content-redux-counter-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/content-redux-counter-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@redux-devtools/extension": "^3.2.3",
+    "redux": "^4.2.0",
+    "vite": "^3.1.7"
+  }
+}
